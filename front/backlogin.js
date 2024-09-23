@@ -2,7 +2,7 @@
 let button = document.getElementById("logar");
 
 button.onclick = async function() {
-    // pega valores dos campos de email e senha
+    // pega valores dos campos de email e a senha
     let email = document.getElementById("emailLogin").value;
     let senha = document.getElementById("senhaLogin").value;
 
@@ -23,7 +23,7 @@ button.onclick = async function() {
         body: JSON.stringify(data)
     });
 
-    // olha a resposta do servidor
+    // verifica como vai ocorrer a resposta do servidor
     const result = await response.json();
 
     if (result.success) {
