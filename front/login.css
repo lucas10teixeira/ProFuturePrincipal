@@ -1,0 +1,93 @@
+#inicio {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    top: 0vh;
+    height: 100%;
+   
+}
+ 
+a{
+    color: black;
+}
+
+h1 {
+    position: absolute;
+    top: 10vh;
+    left: 18vw;
+    color: black;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}   
+
+*{
+    font-family: montserrat;
+    padding: 0px;
+}
+
+form i{
+    position: absolute;
+    top: 51vh;
+    left: 38vw;
+    width: 20vw;
+    color: rgb(75, 76, 76);
+
+}
+
+#formulario input{
+    padding: 0 1vw;
+    box-sizing: border-box;
+}
+   
+
+h4{
+    position: absolute;
+    top: 70vh;
+    left: 17vw;
+    color: rgb(48, 49, 49)
+  
+}
+
+
+#logar{
+    position:absolute;
+    background-color: black;
+    color: white;
+    height: 7vh;
+    width: 30vw;
+    top: 60vh;
+    left: 10vw;
+}
+
+#emailLogin{
+    position: absolute;
+    top: 40vh;
+    left: 10vw;
+    width: 30vw;
+    height: 5vh;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+#senhaLogin{
+    position: absolute;
+    top: 50vh;
+    left: 10vw;
+    width: 30vw;
+    height: 5vh;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+/* @media (max-width: 430px) {
+    .inicio{
+        width: 90000px;
+        display: flex;
+        flex-direction: column;
+    }
+  } */
+
+  

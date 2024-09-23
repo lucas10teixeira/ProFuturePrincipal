@@ -1,0 +1,122 @@
+*{
+  
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+     padding: 0px;
+}
+
+#futebol{
+    position: absolute;
+    left: 50%;
+    height: 100vh;
+    width: 50%;
+    top: 0vh;
+    
+}
+
+/* .direitabaixo{
+    background-color: rgb(60, 59, 59);
+    position: absolute;
+    left: 50%;
+    top: 70vh;
+    width: 50%;
+    height: 30vh;
+} */
+
+*{
+    font-family: montserrat;
+    padding: 0px;
+}
+
+
+
+
+#logo{
+    position: absolute;
+    left: 30%;
+    width: 30vw;
+    height: 30vh;
+}
+h1 {
+    position: absolute;
+    top: 20vh;
+    left: 6vw;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-family: "Bungee", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    
+   
+}
+
+#logar{
+    position:absolute;
+    background-color: rgb(255, 252, 252);
+    color: rgb(0, 0, 0);
+    padding-bottom: 2vh;
+    width: 10vw;
+    top: 60vh;
+    left: 5vw;
+    cursor: pointer;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#cadastrar{
+    position:absolute;
+    background-color: rgb(255, 251, 251);
+    color: black;
+    padding-bottom: 2vh;
+    width: 10vw;
+    top: 60vh;
+    margin-left: 16vw; 
+    text-align: center;
+    padding-top: 5px;    
+    cursor: pointer;   
+}   
+
+#logar:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#cadastrar:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    }
+
+h4 {
+
+    position: absolute;
+    top: 42vh;
+    left: 6vw;
+    font-size: 18px;
+    
+   
+
+}
+
+.logar .a{
+    color: rgb(255, 213, 213);
+    
+
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.inicio{
+    position: absolute;
+    top: 0;
+    width: 99vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+
+}
+
+

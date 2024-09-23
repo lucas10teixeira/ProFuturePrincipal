@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed - Pro Future</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="sweetalert2/dist/sweetalert2.min.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
+    <link rel="shortcut icon" type="imagex/png" href="./imgs/PROFUTURE.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.min.css" integrity="sha256-h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.all.min.js" integrity="sha256-4lhPGIWv8kmCP7JRGJE4IdRod2IdQEZPui6f0uICZ6w=" crossorigin="anonymous">
+    </script>    
+    <nav class="navbar">
+        <div class="navbar-container">
+                <img src="imgs/PROFUTURE.png" alt="Logo" class="logo">
+            </a>
+    
+        <div class="navbar-cima">
+            <a href="index.html" class="navbar-link">Início</a>
+            <a href="opcao.html" class="navbar-link">Exercícios</a>
+            <a href="sobre.html" class="navbar-link">Sobre</a>
+            <a href="perfil.html" class="navbar-link">Perfil</a>
+        </div>
+    </nav>
+    <div class="container">
+      
+        <form id="postfeed">
+         
+            <textarea id="posttexto" placeholder="Conte sobre suas experiências, histórias e momentos importantes que voçê vivenciou no futebol!"></textarea>
+            <input type="file" id="postfile" accept="image/*">
+            <button id ="postButton" type="submit">Postar</button>
+        </form>
+        <div id="feed"></div>
+    </div>
+    <script src="feed.js"></script>
+    <script src="bdfeed.js"></script>
+</body>
+</html>

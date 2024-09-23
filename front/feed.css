@@ -1,0 +1,63 @@
+
+li {
+    font-weight: bold;
+}
+
+/* bold serve para deixar texto em negrito */
+
+
+ul {
+    list-style: none;
+}
+
+/* lista não ordenada */
+.logo{
+ 
+    width: 10%;
+    height: 20%;
+}
+
+header {
+    background-color: rgb(86, 83, 83);
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    padding: 0 1rem;
+}
+
+.logo1{
+    display: none;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 955px) {
+    .navbar {
+        display: none;
+
+    }   
+    header{
+        padding: 4rem;
+    }
+
+    .logo1{
+        display: flex;
+        width: 15vw;
+    }
+
+}
+   

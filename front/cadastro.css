@@ -1,0 +1,146 @@
+#inicio {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    top: 0vh;
+    height: 100%;
+
+
+}
+
+
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    position: absolute;
+    top: 12vh;
+    left: 10vw;
+    color: black;
+    font-size: 3rem;
+    font-family: montserrat;
+
+}
+
+* {
+    font-family: montserrat;
+    padding: 0px;
+    
+}
+
+.placeholder {
+    display: flex;
+    margin-left: 10px;
+
+}
+
+h4 {
+    position: absolute;
+    top: 65vh;
+    left: 17vw;
+    color: rgb(48, 49, 49)
+}
+
+
+#entrar {
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 7vh;
+    width: 30vw;
+    top: 75vh;
+    left: 9vw;
+}
+    #formulario input{
+        padding: 0 1vw;
+        box-sizing: border-box;
+
+    }
+
+#nome {
+    position: absolute;
+    top: 40vh;
+    left: 9vw;
+    width: 30vw;
+    height: 5vh;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+
+#email {
+    position: absolute;
+    top: 50vh;
+    left: 9vw;
+    width: 30vw;
+    height: 5vh;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+#senha {
+    position: absolute;
+    top: 60vh;
+    left: 9vw;
+    width: 30vw;
+    height: 5vh;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 955px) {
+    #inicio {
+       position: absolute;
+       left: 0%;
+        width: 120%;
+        top: 80vh;
+        height: 50%;
+    }
+
+        h1{
+            top: 5vh;
+            left: 15vw;
+        }
+
+        h4{
+            top: 60vh;
+            left: 35vw;
+        }
+
+        #entrar{
+            top: 70vh;
+            left: 40vw;
+        }
+    #email{
+       position: absolute;
+       top: 40vh;
+       left: 30%;
+       width: 50vw;
+       height: 6vh;
+       
+    }
+    #nome{
+        position: absolute;
+        top: 30vh;
+        left: 30%;
+        width: 50vw;
+        height: 6vh;
+     }
+     #senha{
+        position: absolute;
+        left: 30%;
+        width: 50vw;
+        top: 50vh;
+        height: 6vh;
+     }
+}
